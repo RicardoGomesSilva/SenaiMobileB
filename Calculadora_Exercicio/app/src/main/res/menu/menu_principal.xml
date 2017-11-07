@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_teste"
+        android:icon="@android:color/holo_blue_bright"
+        android:title="TESTE" />
+    <item
+        android:id="@+id/menu_app_bar_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search" />
+    <item
+        android:id="@+id/menu_app_bar_switch"
+        android:title="bar switch"
+        app:actionLayout="@layout/switch_item" />
+</menu>

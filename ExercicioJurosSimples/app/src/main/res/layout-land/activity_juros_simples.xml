@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.senai.sp.informatica.exerciciojurossimples.JurosSimples"
+    tools:layout_editor_absoluteY="73dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Taxa de Juros Mensal"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="130dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtTaxa" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="122dp"
+        android:layout_height="0dp"
+        android:text="Numero de Meses"
+        android:layout_marginStart="6dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/txtMeses"
+        app:layout_constraintTop_toTopOf="@+id/txtResultante" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultante:"
+        android:layout_marginStart="2dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/txtTaxa"
+        app:layout_constraintTop_toTopOf="@+id/txtResultante" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="115dp"
+        android:layout_height="0dp"
+        android:onClick="onClicked"
+        android:text="Calcular"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLimpar"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintRight_toRightOf="@+id/txtMeses"
+        app:layout_constraintTop_toTopOf="@+id/btnLimpar" />
+
+    <Button
+        android:id="@+id/btnLimpar"
+        android:layout_width="115dp"
+        android:layout_height="61dp"
+        android:onClick="onClicked"
+        android:text="Limpar"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="98dp"
+        app:layout_constraintLeft_toLeftOf="@+id/txtResultante" />
+
+    <EditText
+        android:id="@+id/txtMeses"
+        android:layout_width="238dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:hint="00"
+        android:inputType="number"
+        android:maxLength="3"
+        android:textAlignment="textEnd"
+        android:textColorLink="@android:color/holo_red_dark"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtResultante"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/txtTaxa"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:hint="0,00"
+        android:inputType="numberDecimal"
+        android:maxLength="15"
+        android:textAlignment="textEnd"
+        android:textColorLink="@android:color/holo_red_dark"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/txtResultante"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtCapitalInicial"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:hint="0,00"
+        android:inputType="numberDecimal"
+        android:maxLength="15"
+        android:textAlignment="textEnd"
+        android:textColorLink="@android:color/holo_red_dark"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/txtMeses"
+        android:layout_marginStart="1dp"
+        app:layout_constraintRight_toRightOf="@+id/txtMeses"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline" />
+
+    <EditText
+        android:id="@+id/txtResultante"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:enabled="false"
+        android:focusable="false"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="false"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/holo_red_light"
+        android:textColorLink="@android:color/black"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLimpar"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="81dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="89dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtCapital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capital Inicial"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtCapitalInicial" />
+
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        app:layout_constraintGuide_begin="20dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline2"
+        app:layout_constraintGuide_begin="20dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="20dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+</android.support.constraint.ConstraintLayout>
