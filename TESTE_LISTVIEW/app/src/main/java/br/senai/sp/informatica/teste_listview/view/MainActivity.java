@@ -1,4 +1,4 @@
-package br.senai.sp.informatica.teste_listview;
+package br.senai.sp.informatica.teste_listview.view;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -12,7 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import static br.senai.sp.informatica.teste_listview.R.layout.detalhes_layout;
+import br.senai.sp.informatica.teste_listview.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,10 +43,13 @@ public class MainActivity extends AppCompatActivity {
 
                 Toast.makeText(MainActivity.this, "INDICE: [" + (position) + "]  |  "  + "STR DO ITEM: [" + strDoItem + "]", Toast.LENGTH_SHORT).show();
 
-                /*
-                Intent intent = new Intent(this, detalhes_layout);
-                startActivity(intent);
-                */
+                //cria o objeto para intent
+                Intent intentTela = new Intent(getBaseContext(), DetalhesEditarCadastrar.class);
+
+
+                startActivity(intentTela);
+                //tela.putExtra(name:"id",id);
+                // isto é para usar uma lista de baseadapter
 
 
             }
