@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\WEB\\AndroidStudioProjects\\EXERCICIO_LIST_VIEW_JOGOS\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\WEB\\.android\\build-cache\\7a5635c0ca29552d5edd5221a787db10a4d0cd9d\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]

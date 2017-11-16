@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\WEB\.android\build-cache\43b8ca45ab371fe950ee58357d175bc921ca8caa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\pre-dexed\debug\classes_59d3a867d6cd6340947db969b45650240b070d9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WEB\.android\build-cache\453139d8bc931130acda3e91ae71b436f885b82d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\pre-dexed\debug\classes_74debb6b9f27602dbee17ef710fe16b7725e10d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WEB\.android\build-cache\956642154793038c6ba350739ced978525db1716\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\pre-dexed\debug\classes_5e91f599473d0e6cb6a81d699fa0348a89bdfc22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WEB\.android\build-cache\10975f246629a4b85120ff75d5bd51d00a5f8a2b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\pre-dexed\debug\classes_e6a20aa7e9e3d57c98d618804fffe1397d89dac6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WEB\.android\build-cache\0b5e39323b814a3a95705443c9a82ef6e1ac4f3b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\pre-dexed\debug\classes_0620a834e4c0a6100c634c67170f7ffc22e452e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WEB\Desktop\AndroidStudio\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_49620e73eaf505499b8e54ec9fb6b0d3f90cdd28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WEB\.android\build-cache\0f47b050545c1971ee919b425c24f696bc53ff71\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\pre-dexed\debug\classes_835a4971a3bc531f4d893eb1b74549280dd9a1bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WEB\.android\build-cache\81ceae469989972173e0cf109f39552717b3d7e0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\pre-dexed\debug\classes_bd24acc845a2b8d882d688d2fd154ff3b216d7de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WEB\.android\build-cache\3adfc38df997261f1b6f91079aef25402f7772c9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\pre-dexed\debug\classes_e1a74becc77bfb39d4797f7026c304748593ee6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WEB\Desktop\AndroidStudio\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_4077feb329b8a6c3a4682e4d9d26903bb14a3346.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f8657415bd86ba942001f588f86dcdfccc3c3320\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WEB\.android\build-cache\d74e840ea6de3e5b78a621c017b81fd59baf9277\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\pre-dexed\debug\classes_95911cfd8d5a09e0ae3ba9b0c6430ef814a225e9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5267b172fc037b6224a6d1a9a00bee50b97bb7f2">
+        <dex dex="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_097ef6ce8712f54888f16e75c3fe40b2f8d721b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WEB\.android\build-cache\c3cb6ee67571a9acaade662c9dc659b9a2ca9f27\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\WEB\AndroidStudioProjects\Calculadora_Exercicio\app\build\intermediates\pre-dexed\debug\classes_dec4997beb8efa9e10e205aba4c8299190e9c18d.jar" />
+    </item>
+
+</items>

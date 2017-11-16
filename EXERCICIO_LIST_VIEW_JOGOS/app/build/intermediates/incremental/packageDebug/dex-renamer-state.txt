@@ -1,0 +1,7 @@
+#Thu Nov 09 21:42:36 BRST 2017
+base.0=C\:\\Users\\WEB\\AndroidStudioProjects\\EXERCICIO_LIST_VIEW_JOGOS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_bfc7538c246df13f9c1138ea3c56382ea4c93822
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\WEB\\AndroidStudioProjects\\EXERCICIO_LIST_VIEW_JOGOS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3108d1a7268b03598d3b9ef5cb364fba6a40b533\\classes.dex
+base.1=C\:\\Users\\WEB\\AndroidStudioProjects\\EXERCICIO_LIST_VIEW_JOGOS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3108d1a7268b03598d3b9ef5cb364fba6a40b533
+file.0=C\:\\Users\\WEB\\AndroidStudioProjects\\EXERCICIO_LIST_VIEW_JOGOS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_bfc7538c246df13f9c1138ea3c56382ea4c93822\\classes.dex
