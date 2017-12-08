@@ -15,7 +15,8 @@ import br.senai.sp.informatica.projetofilmes.R;
 public class LoginActivity extends AppCompatActivity {
 
     //DEFINICAO DE TAG CONSTANTE PARA LOG DO DEBUG
-    private static final String TAG = "QuickNotesMainActivity";
+    private static final String TAG = "DEBUG_PEOJETOSFILMES";
+
 
     //DEFINICAO DE COMPONENTES DA VIEW
     private Button   btnEntrar;
@@ -27,6 +28,9 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+
+        Log.d(TAG, "... CLASSE: LOGINACTIVITY: ENTROU NO ON CREATE ...");
 
         //ATRIBUICAO DOS COMPONENTES DA VIEW
         txtLogin    = (EditText) findViewById(R.id.txtLogin);

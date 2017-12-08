@@ -1,10 +1,16 @@
 package br.senai.sp.informatica.projetofilmes.model;
 
+import android.util.Log;
+
 /**
  * Created by 29740989837 on 06/12/2017.
  */
 
 public class Filmes {
+
+    //DEFINICAO DE TAG CONSTANTE PARA LOG DO DEBUG
+    private static final String TAG = "DEBUG_PEOJETOSFILMES";
+
 
     private Long    id;
     private String  nome;
@@ -23,6 +29,9 @@ public class Filmes {
         this.assistido = assistido;
         this.assistidoData = assistidoData;
         this.rankingFilme = rankingFilme;
+
+        Log.d(TAG, "... CLASSE: Filmes: ENTROU NO CONTRUTOR ...");
+
     }
 
     public Long getId() {
@@ -80,5 +89,6 @@ public class Filmes {
     public void setRankingFilme(Integer rankingFilme) {
         this.rankingFilme = rankingFilme;
     }
+
 }
 
